@@ -5,8 +5,8 @@ enum Weekday {
 fn main() {
     let day = Weekday::Monday;
     match day {
-        Weekday::Monday => print!("Office Day"),
-        Weekday::Sunday => print!("Holiday"),
+        Weekday::Monday => println!("Office Day"),
+        Weekday::Sunday => println!("Holiday"),
         _ => println!("Error Occured")
     }
 }
